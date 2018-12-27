@@ -15,3 +15,6 @@ variable "sns_topic" {
   type = "string"
 }
 
+variable "profile" {
+  default = "default"
+ }
